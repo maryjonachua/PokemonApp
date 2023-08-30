@@ -6,7 +6,7 @@ const SearchBar = ({types,handleEventFilter,selectedValue,searchName,handleSearc
   return (
     <>
     <div className='searchbar-container'>
-        <div className='logo'><img src='/src/assets/Pokedex_logo.png' alt='Pokedex logo'/></div>
+        <div className='logo'><img src='./src/assets/Pokedex_logo.png' alt='Pokedex logo'/></div>
     
         <div className='search-container'>
             <input placeholder='Search Pokemon Name...' value={searchName} onChange={handleSearch}/>
