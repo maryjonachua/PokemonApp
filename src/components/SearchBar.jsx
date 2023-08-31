@@ -1,6 +1,6 @@
 import React from 'react'
 import './SearchBar.css'
-import logo from './Pokedex_logo.png'
+import logo from './assets/Pokedex_logo.png'
 
 
 const SearchBar = ({types,handleEventFilter,selectedValue,searchName,handleSearch}) => {
